@@ -1,1 +1,6 @@
-ß
+let questionCoanterText=document.getElementById("questionCounter")
+let timeText=document.getElementById("timeText")
+let scoreText=document.getElementById("score")
+let questionText=document.getElementById("question")
+let choicesText= Array.from(document.getElementsByClassName("choice-text"))
+console.log(choicesText)
